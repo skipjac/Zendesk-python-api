@@ -1,0 +1,5 @@
+These are a series of scripts that will allow you to create a CSV from your production XML back up of Zendesk.
+
+These are gotchas when doing this. 
+
+1. Deleted users have no email address. So you will have to clean up the users.xml created in Zendesk before running the script. Just search for <email nil="true"></email> in the file and remove those records. 
