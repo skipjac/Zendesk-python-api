@@ -1,8 +1,6 @@
-
 import sys 
 import os 
 import httplib2
-import simplejson
 import base64
 
 h= httplib2.Http(".cache")
