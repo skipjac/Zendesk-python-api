@@ -11,7 +11,7 @@ import StringIO
 
 
 #the old organizations
-#doc = pulldom.parse("skipjack-20110609/organizations.xml")
+#the command line is python orgs.py location_to_organizations.xml 
 
 def convertOrgCSV(doc):
     #this is were the look XML is written 
